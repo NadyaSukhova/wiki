@@ -9,7 +9,7 @@ const routes = [
     redirect: { name: 'all_characters' }
   },
   {
-    ath: '/home',
+    path: '/home',
     name: "all_characters",
     component: CharacterList,
   },
